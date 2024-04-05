@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"IBM Plex Sans", sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.libreta
+{
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(#fff, #F6EEAF);
+    border-radius: 10px;
+    position: relative;
+    box-shadow:  20px 20px rgba(0, 0, 0, .17);    
+}
+.circulos {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 14px;
+    height: 14px;
+    background-color: #000;
+    color: #000;
+    border-radius: 50%;
+    box-shadow: 0px 40px, 0 80px, 0px 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px, 0 360px,
+    0 400px, 0 440px, 0 480px ;
+}
+.lineas {
+    position: absolute;    
+    top: 3px;
+    right: 10px;
+    width: 30px;
+    height: 8px;
+    background-color: rgb(135, 170, 158);
+    color: rgb(135, 170, 158);
+    box-shadow: 0px 40px, 0 80px, 0px 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px, 0 360px,
+    0 400px, 0 440px, 0 480px ;
+}
+h1{
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+ul{
+    position: relative;    
+    left: 80px;
+    top: 50px;
+}
+li{
+    list-style: none;
+}
+.ingresoTareas {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+input {
+    border: none;
+    border-bottom: 2px solid  rgb(135, 170, 158);
+}
